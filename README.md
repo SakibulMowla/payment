@@ -2,12 +2,17 @@
 
 CBD Payment is a web based basic financial software project
 
+(you can add a little more details on the purpose of the software and why it should be used.)
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-See deployment for notes on how to deploy the project on a live system.
+See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
 ### Installing
+
+(Do you mean Prerequisite? Is so, you can consider changing the title to that. Then you can add a little section description saying something like `Make sure the followings are installed before you try to run the project:`)
+
 ```
 JDK 8
 Oracle SQL Database 11g or Higher
@@ -19,13 +24,13 @@ Gradle
 
 ### Configuration
 
-* Resources configuration can be changed
+* Resources configuration can be changed at:
 
 ```
 src/main/resources/application.properties
 ```
 
-* Log directory and level can be changed in application.properties
+* Log directory and level can be changed in application.properties:
 
 ```
 log/cbdpayment.log
@@ -87,5 +92,4 @@ We use @Git for versioning.
 
 ## License
 
-This project is licensed under the @CoderBD.
-
+This project is licensed under the @CoderBD. (What kind of license is that?)
